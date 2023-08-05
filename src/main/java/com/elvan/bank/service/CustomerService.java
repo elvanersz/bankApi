@@ -1,12 +1,12 @@
-package com.folksdevbank.service;
+package com.elvan.bank.service;
 
-import com.folksdevbank.dto.CreateCustomerRequest;
-import com.folksdevbank.dto.CustomerDto;
-import com.folksdevbank.dto.CustomerDtoConverter;
-import com.folksdevbank.dto.UpdateCustomerRequest;
-import com.folksdevbank.model.City;
-import com.folksdevbank.model.Customer;
-import com.folksdevbank.repository.CustomerRepository;
+import com.elvan.bank.dto.CreateCustomerRequest;
+import com.elvan.bank.dto.CustomerDto;
+import com.elvan.bank.dto.CustomerDtoConverter;
+import com.elvan.bank.dto.UpdateCustomerRequest;
+import com.elvan.bank.model.City;
+import com.elvan.bank.model.Customer;
+import com.elvan.bank.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;

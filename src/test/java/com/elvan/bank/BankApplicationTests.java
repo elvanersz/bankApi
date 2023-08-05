@@ -1,10 +1,10 @@
-package com.folksdevbank;
+package com.elvan.bank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FolksdevbankApplicationTests {
+class BankApplicationTests {
 
 	@Test
 	void contextLoads() {

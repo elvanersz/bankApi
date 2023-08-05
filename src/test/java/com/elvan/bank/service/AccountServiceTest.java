@@ -1,10 +1,10 @@
-package com.folksdevbank.service;
+package com.elvan.bank.service;
 
-import com.folksdevbank.dto.AccountDto;
-import com.folksdevbank.dto.AccountDtoConverter;
-import com.folksdevbank.dto.CreateAccountRequest;
-import com.folksdevbank.model.*;
-import com.folksdevbank.repository.AccountRepository;
+import com.elvan.bank.dto.AccountDto;
+import com.elvan.bank.dto.AccountDtoConverter;
+import com.elvan.bank.dto.CreateAccountRequest;
+import com.elvan.bank.model.*;
+import com.elvan.bank.repository.AccountRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

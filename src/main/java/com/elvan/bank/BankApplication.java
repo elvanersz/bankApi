@@ -1,9 +1,9 @@
-package com.folksdevbank;
+package com.elvan.bank;
 
-import com.folksdevbank.model.*;
-import com.folksdevbank.repository.AccountRepository;
-import com.folksdevbank.repository.AddressRepository;
-import com.folksdevbank.repository.CustomerRepository;
+import com.elvan.bank.model.*;
+import com.elvan.bank.repository.AccountRepository;
+import com.elvan.bank.repository.AddressRepository;
+import com.elvan.bank.repository.CustomerRepository;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.info.License;
@@ -18,13 +18,13 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableCaching
-public class FolksdevbankApplication implements CommandLineRunner {
+public class BankApplication implements CommandLineRunner {
 
 	private final AccountRepository accountRepository;
 	private final CustomerRepository customerRepository;
 	private final AddressRepository addressRepository;
 
-	public FolksdevbankApplication(AccountRepository accountRepository,
+	public BankApplication(AccountRepository accountRepository,
 								   CustomerRepository customerRepository,
 								   AddressRepository addressRepository) {
 		this.accountRepository = accountRepository;
@@ -33,7 +33,7 @@ public class FolksdevbankApplication implements CommandLineRunner {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(FolksdevbankApplication.class, args);
+		SpringApplication.run(BankApplication.class, args);
 	}
 
 	@Bean
